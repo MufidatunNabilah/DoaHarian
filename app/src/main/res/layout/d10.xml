@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:background="#ffffffff"
+        android:id="@+id/layar"
+        android:layout_height="fill_parent"
+        android:fadingEdge="vertical"
+        android:scrollbars="vertical">
+
+        <AbsoluteLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:background="#ffffffff"
+            android:id="@+id/layar2"
+            android:layout_height="fill_parent"
+            android:fadingEdge="vertical"
+            android:scrollbars="vertical">
+
+            <ImageView android:id="@+id/gambar"
+                android:src="@drawable/doakeluartoilet"
+                android:scrollbars="vertical"
+                android:fadingEdge="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart">
+            </ImageView>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:src="@drawable/stop"
+                android:id="@+id/stop"
+                android:layout_height="wrap_content"
+                android:paddingRight="5px"
+                android:layout_x="246dp"
+                android:layout_y="475dp"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent">
+            </ImageButton>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:src="@drawable/pause"
+                android:id="@+id/pause"
+                android:layout_height="wrap_content"
+                android:paddingRight="5px"
+                android:layout_x="170dp"
+                android:layout_y="475dp"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent">
+            </ImageButton>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:src="@drawable/play"
+                android:id="@+id/play"
+                android:layout_height="wrap_content"
+                android:paddingRight="5px"
+                android:layout_x="94dp"
+                android:layout_y="475dp"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent">
+            </ImageButton>
+
+        </AbsoluteLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

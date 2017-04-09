@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.sch.smktelkom_mlg.project2.xirpl31019.doaharian">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".menu"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".ss"
+            android:label="@string/app_name"
+            android:theme="@style/splashscreen"
+            android:screenOrientation="portrait"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".menuquran">
+        </activity>
+        <activity android:name=".menuhadis">
+        </activity>
+        <activity android:name=".help">
+        </activity>
+        <activity android:name="about">
+        </activity>
+        <activity android:name=".d1">
+        </activity>
+        <activity android:name=".d2">
+        </activity>
+        <activity android:name=".d3">
+        </activity>
+        <activity android:name=".d4">
+        </activity>
+        <activity android:name=".d5">
+        </activity>
+        <activity android:name=".d6">
+        </activity>
+        <activity android:name=".d7">
+        </activity>
+        <activity android:name=".d8">
+        </activity>
+        <activity android:name=".d9">
+        </activity>
+        <activity android:name=".d10">
+        </activity>
+        <activity android:name=".dd1">
+        </activity>
+        <activity android:name=".dd2">
+        </activity>
+        <activity android:name=".dd3">
+        </activity>
+        <activity android:name=".dd4">
+        </activity>
+        <activity android:name=".dd5">
+        </activity>
+        <activity android:name=".dd6">
+        </activity>
+        <activity android:name=".dd7">
+        </activity>
+        <activity android:name=".dd8">
+        </activity>
+        <activity android:name=".dd9">
+        </activity>
+        <activity android:name=".dd10">
+        </activity>
+        </application>
+</manifest>
