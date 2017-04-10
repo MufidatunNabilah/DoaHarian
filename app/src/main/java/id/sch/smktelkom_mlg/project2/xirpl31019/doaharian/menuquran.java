@@ -16,10 +16,10 @@ public class menuquran extends ListActivity {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         String[] menuquran = new String[] { "Doa Agar Diberi Jodoh", "Doa Supaya Diperlakukan Adil",
-                "Doa Agar Diberi Kemudahan Urusan", "Doa Sapu Jagad",
+                "Doa Agar Diberi Kemudahan ...", "Doa Sapu Jagad",
                 "Doa Menghadapi Lawan","Doa Menjauhi Kesesatan",
-                "Doa Diberi Keselamatan","Doa Agar Terhindar Dari Siksa Neraka",
-                "Doa Agar Diberi Limpahan Rezeki", "Doa Agar Mendapat Kedudukan Yang Mulia" };
+                "Doa Diberi Keselamatan","Doa Agar Terhindar Dari ...",
+                "Doa Agar Diberi Limpahan ...", "Doa Agar Mendapat ..." };
         this.setListAdapter(new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, menuquran));
         getListView().setBackgroundResource(R.drawable.menuquran);
@@ -41,7 +41,7 @@ public class menuquran extends ListActivity {
                 i = new Intent(this, dd1.class);
             } else if (pilihan.equals("Doa Supaya Diperlakukan Adil")) {
                 i = new Intent(this, dd2.class);
-            } else if (pilihan.equals("Doa Agar Diberi Kemudahan Urusan")) {
+            } else if (pilihan.equals("Doa Agar Diberi Kemudahan ...")) {
                 i = new Intent(this, dd3.class);
             } else if (pilihan.equals("Doa Sapu Jagad")) {
                 i = new Intent(this, dd4.class);
@@ -51,11 +51,11 @@ public class menuquran extends ListActivity {
                 i = new Intent(this, dd6.class);
             } else if (pilihan.equals("Doa Diberi Keselamatan")) {
                 i = new Intent(this, dd7.class);
-            } else if (pilihan.equals("Doa Agar Terhindar Dari Siksa Neraka")) {
+            } else if (pilihan.equals("Doa Agar Terhindar Dari ...")) {
                 i = new Intent(this, dd8.class);
-            } else if (pilihan.equals("Doa Agar Diberi Limpahan Rezeki")) {
+            } else if (pilihan.equals("Doa Agar Diberi Limpahan ...")) {
                 i = new Intent(this, dd9.class);
-            } else if (pilihan.equals("Doa Agar Mendapat Kedudukan Yang Mulia")) {
+            } else if (pilihan.equals("Doa Agar Mendapat ...")) {
                 i = new Intent(this, dd10.class);
 
             } else {
